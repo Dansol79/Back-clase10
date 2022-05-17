@@ -1,14 +1,1 @@
-[
-  {
-    "title": "Lunas",
-    "price": "100",
-    "thumbnail": "https://cdn2.iconfinder.com/data/icons/80-s-stuffs-outline/59/Asset_15-128.png",
-    "id": 1
-  },
-  {
-    "title": "Martes",
-    "price": "200",
-    "thumbnail": "https://media.traveler.es/photos/613769feb57001fc862c8035/16:9/w_1792,h_1008,c_limit/150988.jpg",
-    "id": 2
-  }
-]
+[{"title":"Casa","price":"1200","thumbnail":"https://cdn1.iconfinder.com/data/icons/space-travel-flat/340/space_astronomy_system_planet_universe_galaxy_star_neptune-128.png","id":1}]
