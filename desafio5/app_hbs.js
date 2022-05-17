@@ -38,4 +38,7 @@ app.get("/productos", (req, res) => {
         list: content, showList: boolean});
 });
 
-app.listen(8080);
+const PORT = 8080;
+app.listen(PORT, () => {
+    console.log(`Servidor corriendo en el puerto: http://localhost:${PORT}/ para vista HBS`);
+})

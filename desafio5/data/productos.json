@@ -1,1 +1,14 @@
-[{"title":"Casa","price":"1200","thumbnail":"https://cdn1.iconfinder.com/data/icons/space-travel-flat/340/space_astronomy_system_planet_universe_galaxy_star_neptune-128.png","id":1}]
+[
+  {
+    "title": "Casa",
+    "price": "1200",
+    "thumbnail": "https://cdn1.iconfinder.com/data/icons/space-travel-flat/340/space_astronomy_system_planet_universe_galaxy_star_neptune-128.png",
+    "id": 1
+  },
+  {
+    "title": "caramelos",
+    "price": "200",
+    "thumbnail": "https://cdn1.iconfinder.com/data/icons/space-travel-flat/340/space_astronomy_system_planet_universe_galaxy_star_mars-128.png",
+    "id": 2
+  }
+]

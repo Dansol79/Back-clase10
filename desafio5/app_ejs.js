@@ -6,29 +6,27 @@ app.use(express.json())
 app.use(express.urlencoded({extended: true})) 
 
 const productos = new Contenedor(__dirname + "/data/productos.json");
-productos.init();
 
-app.set('views', './views/pug')
-app.set('views engine', 'pug')
+app.set('views', './views/ejs')
+app.set('views engine', 'ejs')
 
 app.get('/', (req, res) => {
     let content = productos.content
-    return res.render('index.pug', {content})
+    return res.render('index.ejs', {content})
 })
 
 app.post("/productos", (req, res) => {
     productos.save(req.body)
     let content = productos.content
-    return res.render('productos.pug', {content});
+    return res.render('productos.ejs', {content});
 });
 
 app.get("/productos", (req, res) => {
     let content = productos.content
-    console.log(content)
-    return res.render('productos.pug', {content});
+    return res.render('productos.ejs', {content});
 });
 
 const PORT = 8080;
 app.listen(PORT, () => {
-    console.log(`Servidor corriendo en el puerto: http://localhost:${PORT}/ para vista PUG`);
+    console.log(`Servidor corriendo en el puerto: http://localhost:${PORT}/ para vista EJS`);
 })
